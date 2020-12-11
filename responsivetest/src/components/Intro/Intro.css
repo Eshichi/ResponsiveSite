@@ -32,3 +32,26 @@
     color: #ffffff;
     font-size: 28px;
 }
+
+@media only screen and (max-width: 1599px) {
+    .intro-design-background {
+        padding: 77px;
+        background-image: url("../../Images/mountain.jfif");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .intro-content span:nth-child(n + 1):nth-child(-n + 2) {
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .intro-content span:nth-child(2) {
+        margin-top: -21px;
+    }
+
+    .intro-content span:nth-child(n + 3) {
+        color: #ffffff;
+        font-size: 14px;
+    }
+}

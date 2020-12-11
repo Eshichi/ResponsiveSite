@@ -37,7 +37,13 @@
     background: none;
     color: white;
 }
-
+@media only screen and (max-width: 1599px) {
+    .eventcard-content-button button {
+        background: none;
+        color: white;
+        width: 80%;
+    }
+}
 .eventcard-content-location {
     background-color: white;
     text-align: right;

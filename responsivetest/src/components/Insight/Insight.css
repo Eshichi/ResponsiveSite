@@ -28,6 +28,21 @@
     font-size: 30px;
     font-weight: bold;
 }
+@media only screen and (max-width: 1599px) {
+    .insight-card-one,
+    .insight-card-two,
+    .insight-card-three {
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .insight-cards-one > div > .ant-card-body,
+    .insight-cards-two > div > .ant-card-body,
+    .insight-cards-three > div > .ant-card-body {
+        padding: 0 !important;
+    }
+}
 
 .insight-card-one {
     color: blue;
