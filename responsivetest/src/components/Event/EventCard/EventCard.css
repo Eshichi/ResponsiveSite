@@ -1,0 +1,47 @@
+.eventcard-container {
+    background-color: #0a8be6;
+    margin: 10px;
+}
+
+.eventcard-content-date,
+.eventcard-content-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.eventcard-content-date {
+    background-color: darkblue;
+    text-align: center;
+    margin-top: -10px;
+    color: white;
+    font-size: 20px;
+}
+
+.eventcard-content-title {
+    text-align: left;
+    padding: 20px;
+    color: white;
+}
+
+.eventcard-content-title span:nth-child(1) {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.eventcard-content-button {
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.eventcard-content-button button {
+    background: none;
+    color: white;
+}
+
+.eventcard-content-location {
+    background-color: white;
+    text-align: right;
+    font-size: 15px;
+    font-weight: 800;
+    padding-right: 10px;
+}

@@ -1,0 +1,38 @@
+.navbar-container {
+    max-width: 1600px;
+    margin: auto;
+}
+
+.navbar-section {
+    padding-top: 26px;
+}
+
+.navbar-title {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.navbar-title span:nth-child(1) {
+    color: #45acf5;
+    font-size: 24px;
+}
+.navbar-title span:nth-child(2) {
+    color: blue;
+    font-size: 60px;
+    margin-top: -23px;
+}
+
+.navbar-logo img {
+    height: 100px;
+    width: 100%;
+}
+.navbar-items {
+    padding-top: 60px;
+}
+.navbar-items > div > div > span:nth-child(n + 1) {
+    margin-right: 100px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}

@@ -1,0 +1,34 @@
+.intro-section {
+    max-width: 1600px;
+    margin: auto;
+}
+.intro-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-container {
+    background-color: #0101bd;
+    padding-top: 15px;
+}
+.intro-design-background {
+    padding: 117px;
+    background-image: url("../../Images/mountain.jfif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.intro-content span:nth-child(n + 1):nth-child(-n + 2) {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.intro-content span:nth-child(2) {
+    margin-top: -21px;
+}
+
+.intro-content span:nth-child(n + 3) {
+    color: #ffffff;
+    font-size: 28px;
+}

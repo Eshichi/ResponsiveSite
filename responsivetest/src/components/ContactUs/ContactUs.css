@@ -1,0 +1,27 @@
+.contact-container {
+    background-image: url("../../Images/dark.jpg");
+    background-size: cover;
+    color: white;
+    padding: 70px;
+    text-align: center;
+}
+
+.contact-section {
+    max-width: 1600px;
+    margin: auto;
+}
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.contact-content span:nth-child(1) {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contact-button button {
+    background: none;
+    color: white;
+}
