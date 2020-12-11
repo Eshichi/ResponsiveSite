@@ -1,0 +1,25 @@
+.footer-section {
+    max-width: 1600px;
+    margin: auto;
+}
+
+.footer-container {
+    background-color: gray;
+    padding: 10px;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.footer-social {
+    text-align: right;
+    color: white;
+}
+
+.footer-social span {
+    padding-right: 10px;
+    font-size: 20px;
+}
